@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background-color:hsl(217, 54%, 11%);
+}
+.card {
+    background-color:hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 17px;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 33px;
+}
+.img {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+.img-active svg {
+    padding: 130px;
+    opacity: 1;
+}
+.img-active{
+    background-color:hsl(178, 100%, 50%) ;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+    }
+    .equilibrium:hover .img-active{
+        opacity: 0.5;
+    }
+.equilibrium {
+    position: relative;
+}
+h1 a {
+    font-family:"Outfit",sans-serif ;
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+.prg {
+    font-family: "outfit",sans-serif;
+    font-size: 18px;
+    color: hsl(215, 24%, 35%);
+    font-weight: 450;
+    text-align: justify;
+}
+.icon-ethereum {
+    float: left;
+}
+.icon-ethereum span {
+    vertical-align: top;
+    font-family: "outfit" , sans-serif;
+    color: hsl(178, 100%, 50%);
+}
+.icon-clock {
+    float: right;
+}
+.icon-clock span {
+    vertical-align: top;
+    font-family: "outfit" , sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+.content {
+    border-bottom: 1px solid hsla(215, 52%, 70%, 0.418) ;
+    height: 160px;
+    margin-bottom: 13px;
+}
+.avatar {
+    width: 12%;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.footer p{
+    font-family: "outfit",sans-serif;
+    color: hsl(215, 51%, 70%);
+    text-align: center;
+    display: inline;
+    vertical-align: -moz-middle-with-baseline;
+    padding-left: 15px;
+}
+.footer p a{
+    color: white  ;
+}
+h1 a:hover , .footer p a:hover {
+    color:hsl(178, 100%, 50%) ;
+}
